@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bd0330f923a1e24586f1609afdab6be, type: 3}
+  m_Name: Crosshair 1
+  m_EditorClassIdentifier: 
+  Hip:
+    m_displays:
+    - Dot:
+        Texture: {fileID: 2800000, guid: 764c7bde4ab673542880281181a5d49d, type: 3}
+        Color: {r: 0.9150943, g: 0.11654504, b: 0.11654504, a: 1}
+      Inner:
+        Texture: {fileID: 2800000, guid: e3ec90e946da79c469a05c5428c6e503, type: 3}
+        Color: {r: 0.8867924, g: 0.10457456, b: 0.10457456, a: 1}
+      Expanding:
+        Texture: {fileID: 2800000, guid: 01cd8caa4df2e124ab01bb556394f9d1, type: 3}
+        Color: {r: 0.8867924, g: 0.12967247, b: 0.12967247, a: 1}
+      ShrinkSpeed: 2
+      MaxScale: 2
+      Reload:
+        Texture: {fileID: 2800000, guid: 28219cc2ce5c8d24ab8c6cd2cbbb8402, type: 3}
+        Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+    - Dot:
+        Texture: {fileID: 2800000, guid: 764c7bde4ab673542880281181a5d49d, type: 3}
+        Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+      Inner:
+        Texture: {fileID: 2800000, guid: f78e86c620011594082752591fd4062e, type: 3}
+        Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+      Expanding:
+        Texture: {fileID: 2800000, guid: 7f866c4f244b29e4c8c22a562414e2ff, type: 3}
+        Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+      ShrinkSpeed: 2
+      MaxScale: 2
+      Reload:
+        Texture: {fileID: 2800000, guid: 28219cc2ce5c8d24ab8c6cd2cbbb8402, type: 3}
+        Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+    - Dot:
+        Texture: {fileID: 2800000, guid: 764c7bde4ab673542880281181a5d49d, type: 3}
+        Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+      Inner:
+        Texture: {fileID: 2800000, guid: 87d8761477237bf46b14c0feca72e80e, type: 3}
+        Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+      Expanding:
+        Texture: {fileID: 2800000, guid: 87787486c3fc21741a38e4ac4ad71ea8, type: 3}
+        Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+      ShrinkSpeed: 2
+      MaxScale: 2
+      Reload:
+        Texture: {fileID: 2800000, guid: 28219cc2ce5c8d24ab8c6cd2cbbb8402, type: 3}
+        Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+  CanScope: 1
+  Scope:
+    m_displays:
+    - Dot:
+        Texture: {fileID: 2800000, guid: 0f392f2cc4f0d9340b3524ed8d6f06aa, type: 3}
+        Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+      Inner:
+        Texture: {fileID: 2800000, guid: 34462353060e9834e93ec5bcaf0a1af5, type: 3}
+        Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+      Expanding:
+        Texture: {fileID: 2800000, guid: e60e44f267ae4704989116c9f0d2d487, type: 3}
+        Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+      ShrinkSpeed: 2
+      MaxScale: 2
+      Scope:
+        Texture: {fileID: 2800000, guid: 3b76319dfef2d7b42aac042c7b024e64, type: 3}
+        Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+    - Dot:
+        Texture: {fileID: 2800000, guid: f6aabab400c61b64aba6c93ea1d81d1f, type: 3}
+        Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+      Inner:
+        Texture: {fileID: 2800000, guid: 2231e750f91f01247afa5fa572c9c73d, type: 3}
+        Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+      Expanding:
+        Texture: {fileID: 2800000, guid: e60e44f267ae4704989116c9f0d2d487, type: 3}
+        Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+      ShrinkSpeed: 2
+      MaxScale: 2
+      Scope:
+        Texture: {fileID: 2800000, guid: 3b76319dfef2d7b42aac042c7b024e64, type: 3}
+        Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+    - Dot:
+        Texture: {fileID: 2800000, guid: 1667ba6a088912241af6709b1e0a9eb5, type: 3}
+        Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+      Inner:
+        Texture: {fileID: 2800000, guid: 95a2be98699f54c4db1dea1a6bd47c3e, type: 3}
+        Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+      Expanding:
+        Texture: {fileID: 2800000, guid: e60e44f267ae4704989116c9f0d2d487, type: 3}
+        Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+      ShrinkSpeed: 2
+      MaxScale: 2
+      Scope:
+        Texture: {fileID: 2800000, guid: 3b76319dfef2d7b42aac042c7b024e64, type: 3}
+        Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
